@@ -9,7 +9,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     //버전 입력
     private readonly string version = "1.0f";
     //사용자 아이디 입력
-    private string userId = "Mary";
+    private string userId = ButtonEvent.nickName;
 
     void Awake(){
         //같은 룸의 유저들에게 자동으로 씬을 로딩

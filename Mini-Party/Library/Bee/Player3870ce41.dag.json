@@ -189,7 +189,11 @@
         181,
         182,
         183,
-        184
+        184,
+        185,
+        186,
+        187,
+        188
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -250,6 +254,28 @@
       "DebugActionIndex": 5
     },
     {
+      "Annotation": "CopyFiles start/Mini-Party_Data/level1",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/level1"
+      ],
+      "Outputs": [
+        "start/Mini-Party_Data/level1"
+      ],
+      "DebugActionIndex": 6
+    },
+    {
+      "Annotation": "CopyFiles start/Mini-Party_Data/level1.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/level1.resS"
+      ],
+      "Outputs": [
+        "start/Mini-Party_Data/level1.resS"
+      ],
+      "DebugActionIndex": 7
+    },
+    {
       "Annotation": "CopyFiles start/Mini-Party_Data/resources.assets",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -258,7 +284,7 @@
       "Outputs": [
         "start/Mini-Party_Data/resources.assets"
       ],
-      "DebugActionIndex": 6
+      "DebugActionIndex": 8
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/resources.assets.resS",
@@ -269,7 +295,7 @@
       "Outputs": [
         "start/Mini-Party_Data/resources.assets.resS"
       ],
-      "DebugActionIndex": 7
+      "DebugActionIndex": 9
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/RuntimeInitializeOnLoads.json",
@@ -280,7 +306,7 @@
       "Outputs": [
         "start/Mini-Party_Data/RuntimeInitializeOnLoads.json"
       ],
-      "DebugActionIndex": 8
+      "DebugActionIndex": 10
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/ScriptingAssemblies.json",
@@ -291,7 +317,7 @@
       "Outputs": [
         "start/Mini-Party_Data/ScriptingAssemblies.json"
       ],
-      "DebugActionIndex": 9
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/sharedassets0.assets",
@@ -302,7 +328,29 @@
       "Outputs": [
         "start/Mini-Party_Data/sharedassets0.assets"
       ],
-      "DebugActionIndex": 10
+      "DebugActionIndex": 12
+    },
+    {
+      "Annotation": "CopyFiles start/Mini-Party_Data/sharedassets0.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS"
+      ],
+      "Outputs": [
+        "start/Mini-Party_Data/sharedassets0.assets.resS"
+      ],
+      "DebugActionIndex": 13
+    },
+    {
+      "Annotation": "CopyFiles start/Mini-Party_Data/sharedassets1.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets1.assets"
+      ],
+      "Outputs": [
+        "start/Mini-Party_Data/sharedassets1.assets"
+      ],
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Resources/unity_builtin_extra",
@@ -313,7 +361,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Resources/unity_builtin_extra"
       ],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/StreamingAssets/UnityServicesProjectConfiguration.json",
@@ -324,7 +372,7 @@
       "Outputs": [
         "start/Mini-Party_Data/StreamingAssets/UnityServicesProjectConfiguration.json"
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Assembly-CSharp.dll",
@@ -335,7 +383,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Assembly-CSharp.pdb",
@@ -346,7 +394,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Assembly-CSharp.pdb"
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Cinemachine.dll",
@@ -357,7 +405,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Cinemachine.dll"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Cinemachine.pdb",
@@ -368,7 +416,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Cinemachine.pdb"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Mono.Security.dll",
@@ -379,7 +427,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/mscorlib.dll",
@@ -390,7 +438,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/netstandard.dll",
@@ -401,7 +449,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Newtonsoft.Json.dll",
@@ -412,7 +460,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Newtonsoft.Json.dll"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Newtonsoft.Json.pdb",
@@ -423,7 +471,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Newtonsoft.Json.pdb"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Photon3Unity3D.dll",
@@ -434,7 +482,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Photon3Unity3D.dll"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Photon3Unity3D.pdb",
@@ -445,7 +493,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Photon3Unity3D.pdb"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/PhotonChat.dll",
@@ -456,7 +504,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/PhotonChat.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/PhotonChat.pdb",
@@ -467,7 +515,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/PhotonChat.pdb"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/PhotonRealtime.dll",
@@ -478,7 +526,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/PhotonRealtime.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/PhotonRealtime.pdb",
@@ -489,7 +537,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/PhotonRealtime.pdb"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/PhotonUnityNetworking.Demos.dll",
@@ -500,7 +548,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/PhotonUnityNetworking.Demos.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/PhotonUnityNetworking.Demos.pdb",
@@ -511,7 +559,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/PhotonUnityNetworking.Demos.pdb"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/PhotonUnityNetworking.dll",
@@ -522,7 +570,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/PhotonUnityNetworking.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/PhotonUnityNetworking.pdb",
@@ -533,7 +581,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/PhotonUnityNetworking.pdb"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/PhotonUnityNetworking.Utilities.dll",
@@ -544,7 +592,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/PhotonUnityNetworking.Utilities.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/PhotonUnityNetworking.Utilities.pdb",
@@ -555,7 +603,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/PhotonUnityNetworking.Utilities.pdb"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.ComponentModel.Composition.dll",
@@ -566,7 +614,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.Configuration.dll",
@@ -577,7 +625,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.Core.dll",
@@ -588,7 +636,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -599,7 +647,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.Data.dll",
@@ -610,7 +658,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.dll",
@@ -621,7 +669,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.Drawing.dll",
@@ -632,7 +680,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.EnterpriseServices.dll",
@@ -643,7 +691,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.IO.Compression.dll",
@@ -654,7 +702,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -665,7 +713,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.Net.Http.dll",
@@ -676,7 +724,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.Numerics.dll",
@@ -687,7 +735,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.Runtime.Serialization.dll",
@@ -698,7 +746,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.Security.dll",
@@ -709,7 +757,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.ServiceModel.Internals.dll",
@@ -720,7 +768,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.Transactions.dll",
@@ -731,7 +779,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.Xml.dll",
@@ -742,7 +790,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/System.Xml.Linq.dll",
@@ -753,7 +801,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Analytics.dll",
@@ -764,7 +812,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Analytics.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Analytics.pdb",
@@ -775,7 +823,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Analytics.pdb"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Configuration.dll",
@@ -786,7 +834,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Configuration.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Configuration.pdb",
@@ -797,7 +845,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Configuration.pdb"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Device.dll",
@@ -808,7 +856,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Device.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Device.pdb",
@@ -819,7 +867,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Device.pdb"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.dll",
@@ -830,7 +878,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Environments.dll",
@@ -841,7 +889,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Environments.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Environments.Internal.dll",
@@ -852,7 +900,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Environments.Internal.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Environments.Internal.pdb",
@@ -863,7 +911,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Environments.Internal.pdb"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Environments.pdb",
@@ -874,7 +922,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Environments.pdb"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Internal.dll",
@@ -885,7 +933,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Internal.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Internal.pdb",
@@ -896,7 +944,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Internal.pdb"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Networking.dll",
@@ -907,7 +955,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Networking.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Networking.pdb",
@@ -918,7 +966,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Networking.pdb"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.pdb",
@@ -929,7 +977,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.pdb"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Registration.dll",
@@ -940,7 +988,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Registration.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Registration.pdb",
@@ -951,7 +999,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Registration.pdb"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Scheduler.dll",
@@ -962,7 +1010,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Scheduler.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Scheduler.pdb",
@@ -973,7 +1021,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Scheduler.pdb"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Telemetry.dll",
@@ -984,7 +1032,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Telemetry.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Telemetry.pdb",
@@ -995,7 +1043,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Telemetry.pdb"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Threading.dll",
@@ -1006,7 +1054,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Threading.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Services.Core.Threading.pdb",
@@ -1017,7 +1065,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Services.Core.Threading.pdb"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.TextMeshPro.dll",
@@ -1028,7 +1076,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.TextMeshPro.pdb",
@@ -1039,7 +1087,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.TextMeshPro.pdb"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Timeline.dll",
@@ -1050,7 +1098,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.Timeline.pdb",
@@ -1061,7 +1109,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.Timeline.pdb"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1072,7 +1120,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -1083,7 +1131,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.VisualScripting.Core.pdb",
@@ -1094,7 +1142,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.VisualScripting.Core.pdb"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1105,7 +1153,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.VisualScripting.Flow.pdb",
@@ -1116,7 +1164,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.VisualScripting.Flow.pdb"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.VisualScripting.State.dll",
@@ -1127,7 +1175,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/Unity.VisualScripting.State.pdb",
@@ -1138,7 +1186,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/Unity.VisualScripting.State.pdb"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -1149,7 +1197,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.AIModule.dll",
@@ -1160,7 +1208,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -1171,7 +1219,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -1182,7 +1230,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.ARModule.dll",
@@ -1193,7 +1241,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -1204,7 +1252,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.AudioModule.dll",
@@ -1215,7 +1263,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.ClothModule.dll",
@@ -1226,7 +1274,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -1237,7 +1285,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -1248,7 +1296,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.CoreModule.dll",
@@ -1259,7 +1307,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -1270,7 +1318,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -1281,7 +1329,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.dll",
@@ -1292,7 +1340,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -1303,7 +1351,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -1314,7 +1362,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.GIModule.dll",
@@ -1325,7 +1373,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.GridModule.dll",
@@ -1336,7 +1384,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -1347,7 +1395,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -1358,7 +1406,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -1369,7 +1417,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -1380,7 +1428,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.InputModule.dll",
@@ -1391,7 +1439,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -1402,7 +1450,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -1413,7 +1461,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -1424,7 +1472,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -1435,7 +1483,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -1446,7 +1494,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -1457,7 +1505,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -1468,7 +1516,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -1479,7 +1527,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -1490,7 +1538,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -1501,7 +1549,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -1512,7 +1560,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -1523,7 +1571,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -1534,7 +1582,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1545,7 +1593,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -1556,7 +1604,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1567,7 +1615,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1578,7 +1626,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1589,7 +1637,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1600,7 +1648,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1611,7 +1659,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1622,7 +1670,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1633,7 +1681,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.TLSModule.dll",
@@ -1644,7 +1692,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UI.dll",
@@ -1655,7 +1703,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UI.pdb",
@@ -1666,7 +1714,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UI.pdb"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1677,7 +1725,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -1688,7 +1736,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UIElementsNativeModule.dll"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UIModule.dll",
@@ -1699,7 +1747,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1710,7 +1758,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UNETModule.dll",
@@ -1721,7 +1769,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UNETModule.dll"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1732,7 +1780,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1743,7 +1791,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1754,7 +1802,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1765,7 +1813,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1776,7 +1824,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1787,7 +1835,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1798,7 +1846,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1809,7 +1857,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1820,7 +1868,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1831,7 +1879,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1842,7 +1890,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1853,7 +1901,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1864,7 +1912,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.VRModule.dll",
@@ -1875,7 +1923,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.WindModule.dll",
@@ -1886,7 +1934,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/UnityEngine.XRModule.dll",
@@ -1897,7 +1945,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Managed/websocket-sharp.dll",
@@ -1908,7 +1956,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Managed/websocket-sharp.dll"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
@@ -1919,7 +1967,7 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 157
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/app.info",
@@ -1931,9 +1979,9 @@
         "start/Mini-Party_Data/app.info"
       ],
       "ToBuildDependencies": [
-        157
+        161
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles start/Mini-Party_Data/Resources/unity default resources",
@@ -1944,7 +1992,7 @@
       "Outputs": [
         "start/Mini-Party_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles start/Mini-Party.exe",
@@ -1955,7 +2003,7 @@
       "Outputs": [
         "start/Mini-Party.exe"
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles start/UnityCrashHandler64.exe",
@@ -1966,7 +2014,7 @@
       "Outputs": [
         "start/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles start/UnityPlayer.dll",
@@ -1977,7 +2025,7 @@
       "Outputs": [
         "start/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles start/WinPixEventRuntime.dll",
@@ -1988,7 +2036,7 @@
       "Outputs": [
         "start/WinPixEventRuntime.dll"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -1999,7 +2047,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -2010,7 +2058,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -2021,7 +2069,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/config",
@@ -2032,7 +2080,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 167
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -2043,7 +2091,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 168
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -2054,7 +2102,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -2065,7 +2113,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -2076,7 +2124,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -2087,7 +2135,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 172
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -2098,7 +2146,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -2109,7 +2157,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -2120,7 +2168,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 175
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -2131,7 +2179,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -2142,7 +2190,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -2153,7 +2201,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -2164,7 +2212,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 179
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -2175,7 +2223,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 180
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -2186,7 +2234,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 181
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -2197,7 +2245,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 182
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "CopyFiles start/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -2208,7 +2256,7 @@
       "Outputs": [
         "start/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 183
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "Player",
@@ -2372,10 +2420,10 @@
         154,
         155,
         156,
+        157,
         158,
         159,
         160,
-        161,
         162,
         163,
         164,
@@ -2397,10 +2445,14 @@
         180,
         181,
         182,
-        183
+        183,
+        184,
+        185,
+        186,
+        187
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 184
+      "DebugActionIndex": 188
     }
   ],
   "FileSignatures": [
@@ -2603,7 +2655,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 184
+          "Player": 188
         }
 ,  "DefaultNodes": [
     0
