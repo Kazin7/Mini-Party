@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - MyGizmo
     - PhotonManager
     - SimpleSampleCharacterControl
+    - TextAbovePlayer
     - settingName
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
@@ -153,27 +154,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 2032}
+      Script: {instanceID: 1770}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 3306}
+      Script: {instanceID: 3076}
     - Class: 114
-      Script: {instanceID: 3646}
+      Script: {instanceID: 3420}
     - Class: 114
-      Script: {instanceID: 4816}
+      Script: {instanceID: 4620}
     - Class: 114
-      Script: {instanceID: 5698}
+      Script: {instanceID: 5524}
     - Class: 114
-      Script: {instanceID: 5754}
+      Script: {instanceID: 5580}
     - Class: 114
-      Script: {instanceID: 5990}
+      Script: {instanceID: 5818}
     - Class: 114
-      Script: {instanceID: 6670}
+      Script: {instanceID: 6510}
     - Class: 114
-      Script: {instanceID: 6848}
+      Script: {instanceID: 6692}
     - Class: 114
-      Script: {instanceID: 7208}
+      Script: {instanceID: 7066}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -216,15 +217,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2988}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 3148}
+      Script: {instanceID: 2918}
     - Class: 114
-      Script: {instanceID: 3830}
+      Script: {instanceID: 3610}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 4558}
     - Class: 114
-      Script: {instanceID: 6626}
+      Script: {instanceID: 6466}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -277,67 +278,69 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1932}
+      Script: {instanceID: 1670}
     - Class: 114
-      Script: {instanceID: 2118}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 2582}
+      Script: {instanceID: 2338}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 3306}
+      Script: {instanceID: 3076}
     - Class: 114
-      Script: {instanceID: 3550}
+      Script: {instanceID: 3324}
     - Class: 114
-      Script: {instanceID: 3646}
+      Script: {instanceID: 3420}
     - Class: 114
-      Script: {instanceID: 4160}
+      Script: {instanceID: 3952}
     - Class: 114
-      Script: {instanceID: 4482}
+      Script: {instanceID: 4282}
     - Class: 114
-      Script: {instanceID: 4484}
+      Script: {instanceID: 4284}
     - Class: 114
-      Script: {instanceID: 4678}
+      Script: {instanceID: 4480}
     - Class: 114
-      Script: {instanceID: 4830}
+      Script: {instanceID: 4636}
     - Class: 114
-      Script: {instanceID: 5128}
+      Script: {instanceID: 4936}
     - Class: 114
-      Script: {instanceID: 5896}
+      Script: {instanceID: 5450}
     - Class: 114
-      Script: {instanceID: 5922}
+      Script: {instanceID: 5724}
     - Class: 114
-      Script: {instanceID: 5990}
+      Script: {instanceID: 5750}
     - Class: 114
-      Script: {instanceID: 6392}
+      Script: {instanceID: 5818}
     - Class: 114
-      Script: {instanceID: 6442}
+      Script: {instanceID: 6224}
     - Class: 114
-      Script: {instanceID: 6650}
+      Script: {instanceID: 6276}
     - Class: 114
-      Script: {instanceID: 6670}
+      Script: {instanceID: 6490}
     - Class: 114
-      Script: {instanceID: 6686}
+      Script: {instanceID: 6510}
     - Class: 114
-      Script: {instanceID: 6848}
+      Script: {instanceID: 6526}
     - Class: 114
-      Script: {instanceID: 7208}
+      Script: {instanceID: 6692}
     - Class: 114
-      Script: {instanceID: 7222}
+      Script: {instanceID: 7066}
     - Class: 114
-      Script: {instanceID: 7880}
+      Script: {instanceID: 7080}
     - Class: 114
-      Script: {instanceID: 8432}
+      Script: {instanceID: 7744}
     - Class: 114
-      Script: {instanceID: 8840}
+      Script: {instanceID: 8314}
     - Class: 114
-      Script: {instanceID: 8976}
+      Script: {instanceID: 8678}
     - Class: 114
-      Script: {instanceID: 9334}
+      Script: {instanceID: 8732}
     - Class: 114
-      Script: {instanceID: 31560}
+      Script: {instanceID: 8878}
     - Class: 114
-      Script: {instanceID: 37576}
+      Script: {instanceID: 9252}
+    - Class: 114
+      Script: {instanceID: 24500}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1392,6 +1395,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnEndDragMessageListener
@@ -2201,6 +2210,12 @@ ScriptsOnlyBuild:
     className: LobbyTopPanel
   - hash:
       serializedVersion: 2
+      Hash: d993e79a3ca936912d006dc0593159e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextAbovePlayer
+  - hash:
+      serializedVersion: 2
       Hash: e4aa02db6487ad3aebb8e2f22ee6b699
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Procedural
@@ -2361,15 +2376,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MainMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/StartScene.unity
   - Assets/Scenes/NickName.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/zz/Documents/GitHub/Mini-Party/Mini-Party/start/Mini-Party.exe
+  playerPath: C:/Users/krust/Documents/GitHub/Mini-Party/Mini-Party/start/Mini-Party.exe

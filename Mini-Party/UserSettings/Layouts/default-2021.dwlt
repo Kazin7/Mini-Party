@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 6923
+  controlID: 96
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 6924
+  controlID: 97
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,8 +165,8 @@ MonoBehaviour:
     y: 0
     width: 851
     height: 477
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 6904
+  controlID: 42
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -640,9 +640,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.9817038, y: -3.9039726, z: 7.073489}
+    m_Target: {x: -0.597576, y: -1.510073, z: 0.4386866}
     speed: 2
-    m_Value: {x: -0.9817038, y: -3.9039726, z: 7.073489}
+    m_Value: {x: -0.597576, y: -1.510073, z: 0.4386866}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -689,13 +689,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.26268005, y: -0.008687768, z: 0.0023652613, w: 0.96484125}
+    m_Target: {x: -0.22918437, y: 0.023938987, z: -0.005637768, w: -0.9730775}
     speed: 2
-    m_Value: {x: 0.26268, y: -0.008687766, z: 0.0023652609, w: 0.964841}
+    m_Value: {x: -0.22918323, y: 0.023938868, z: -0.00563774, w: -0.9730726}
   m_Size:
-    m_Target: 7.971717
+    m_Target: 4.5793853
     speed: 2
-    m_Value: 7.971717
+    m_Value: 4.5793853
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -753,7 +753,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8e8fffffa69cfffffc9effff0c9fffff52a0ffffb8a2ffff18a3ffff74a3fffff2b0ffff9cb3ffff7cb7ffffd6b8ffff8abbffffc8c9ffffcac9ffff88ccffff30d8ffffa0d9fffff6d9ffff30e2ffff06edffff3ef6ffffc8f8ffff66faffff
+      m_ExpandedIDs: 4ac2fefff810ffff2032ffff7432ffff1835ffff2635ffff3835ffffe035ffffbcc4ffff0ef7ffff0efbffff9c600000f46e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -818,22 +818,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Resources
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\krust\Documents\GitHub\Mini-Party\Mini-Party
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4e610000
-    m_LastClickedID: 24910
-    m_ExpandedIDs: 000000001e61000020610000226100002461000026610000286100002c6100002e61000030610000326100003461000000ca9a3b
+    m_SelectedIDs: 3e600000
+    m_LastClickedID: 24638
+    m_ExpandedIDs: 000000001e60000020600000226000002460000026600000286000002a6000002c6000002e6000003060000032600000cc620000de62000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -861,7 +861,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001e61000020610000226100002461000026610000286100002c6100002e61000030610000326100003461000000ca9a3b
+    m_ExpandedIDs: 000000001e60000020600000226000002460000026600000286000002a6000002c6000002e6000003060000032600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

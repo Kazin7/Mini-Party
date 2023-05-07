@@ -10,6 +10,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     private readonly string version = "1.0f";
     //사용자 아이디 입력
     private string userId = ButtonEvent.nickName;
+    private int playerNum;
 
     void Awake(){
         //같은 룸의 유저들에게 자동으로 씬을 로딩
@@ -65,15 +66,17 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         //룸에 접속한 사용자 정보 확인
         foreach(var player in PhotonNetwork.CurrentRoom.Players){
             Debug.Log($"{player.Value.NickName},{player.Value.ActorNumber}");
+            playerNum = player.Value.ActorNumber;
             //$ => String.Format() $""
         }
 
         //캐릭터 출현 정보를 배열에 저장
         Transform[] points = GameObject.Find("SpawnPointGroup").GetComponentsInChildren<Transform>();
-        int idx = Random.Range(1,points.Length);
+        int idx = playerNum;
         //캐릭터 생성
         PhotonNetwork.Instantiate("Player",points[idx].position,points[idx].rotation,0);
     }
+
     // Start is called before the first frame update
     void Start()
     {

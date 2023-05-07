@@ -391,10 +391,10 @@
 "Assets/Scripts/MyGizmo.cs"
 "Assets/Scripts/PhotonManager.cs"
 "Assets/Scripts/settingName.cs"
+"Assets/Scripts/SimpleSampleCharacterControl.cs"
 "Assets/Scripts/TextAbovePlayer.cs"
 "Assets/Supercyan Character Pack Free Sample/Scripts/DemoFree.cs"
 "Assets/Supercyan Character Pack Free Sample/Scripts/FreeCameraLogic.cs"
-"Assets/Supercyan Character Pack Free Sample/Scripts/SimpleSampleCharacterControl.cs"
 -langversion:9.0
 
 /deterministic
