@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/NickName.unity
     guid: d2668217c7ab69c41bc5869e0a35a074
   - enabled: 1
+    path: Assets/Scenes/JumpSitGame.unity
+    guid: 2c303972fea404549b4d2dc79c3ccc77
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
