@@ -25,7 +25,8 @@ public class CannonCtrl : MonoBehaviour
             GameObject bullet = Instantiate(bulletPrefab);
             bullet.transform.position = shotPos.transform.position;
             float force = Random.Range(300.0f,500.0f);
-            bullet.GetComponent<Rigidbody>().AddForce(new Vector3(0,100,force),ForceMode.Impulse);
+            float vec = Random.Range(-100.0f,100.0f);
+            bullet.GetComponent<Rigidbody>().AddForce(new Vector3(vec,100,force),ForceMode.Impulse);
         }
     }
 }

@@ -11,7 +11,7 @@ public class CanonCtrl2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timer =0.0f;
+        timer = 0.0f;
         randomNum = Random.Range(1.0f,4.0f);
     }
 
@@ -25,7 +25,8 @@ public class CanonCtrl2 : MonoBehaviour
             GameObject bullet = Instantiate(bulletPrefab);
             bullet.transform.position = shotPos.transform.position;
             float force = Random.Range(300.0f,500.0f);
-            bullet.GetComponent<Rigidbody>().AddForce(new Vector3(-force,100,0),ForceMode.Impulse);
+            float vec = Random.Range(-100.0f,100.0f);
+            bullet.GetComponent<Rigidbody>().AddForce(new Vector3(-force,100,vec),ForceMode.Impulse);
         }
     }
 }
