@@ -1,0 +1,249 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 16322 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/98psw/Desktop/캡스톤/Mini-Party/Mini-Party
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52436
+Successfully changed project path to: C:/Users/98psw/Desktop/캡스톤/Mini-Party/Mini-Party
+C:/Users/98psw/Desktop/캡스톤/Mini-Party/Mini-Party
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 144.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/98psw/Desktop/캡스톤/Mini-Party/Mini-Party/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.106987 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 139.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.347 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1349ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (802ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (136ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (483ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.029387 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\98psw\Desktop\캡스톤\Mini-Party\Mini-Party\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\98psw\Desktop\캡스톤\Mini-Party\Mini-Party\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.760 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1761ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1329ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (426ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (582ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (333ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3888 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (182.5 KB). Loaded Objects now: 4354.
+Memory consumption went from 140.3 MB to 140.1 MB.
+Total: 3.582100 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.264400 ms MarkObjects: 2.872500 ms  DeleteObjects: 0.143700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 107527.683918 seconds.
+  path: Assets/Resources/MapMakerV1/Materials/CUBE Material.mat
+  artifactKey: Guid(a44066e4515857e49a67e2639e53f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapMakerV1/Materials/CUBE Material.mat using Guid(a44066e4515857e49a67e2639e53f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1c69b03caae69e4ea03195128a124c') in 0.510283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab
+  artifactKey: Guid(b71bf62344131734da4f4533467e8530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab using Guid(b71bf62344131734da4f4533467e8530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6244179e34028c77bb9054d84e3e65') in 0.014218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/BLOCK_GRAY.prefab
+  artifactKey: Guid(38a4d88f60bef2544acda6c83904117b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/BLOCK_GRAY.prefab using Guid(38a4d88f60bef2544acda6c83904117b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38703eb7aca0d2be21f18a6135c011d0') in 0.090306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/BLOCK_YELLOW.prefab
+  artifactKey: Guid(21ce3ac14fa52344cba53fcb4d3ba654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/BLOCK_YELLOW.prefab using Guid(21ce3ac14fa52344cba53fcb4d3ba654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c484572b9aa504df644d6e9ce11a15cc') in 0.035445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/MapMakerV1/Data/Mapdata/samplemap.asset
+  artifactKey: Guid(b551495e5f8358c458cd4564561a5172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapMakerV1/Data/Mapdata/samplemap.asset using Guid(b551495e5f8358c458cd4564561a5172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d0c24b289b159f7f3d409b10fedbc5') in 0.021828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Paddle (1).prefab
+  artifactKey: Guid(857b178870752ee4cba3ff917ae7e51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Paddle (1).prefab using Guid(857b178870752ee4cba3ff917ae7e51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7175444cba7282aed6538d77aa006cd') in 0.034964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/BLOCK_RED.prefab
+  artifactKey: Guid(523cc2fa454e7a746ae8b9f95347780c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/BLOCK_RED.prefab using Guid(523cc2fa454e7a746ae8b9f95347780c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b719f952988194042436fd97743d75ed') in 0.027059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/BLOCK_ORENGE.prefab
+  artifactKey: Guid(eb9198f97ecd76f449e605a063a08395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/BLOCK_ORENGE.prefab using Guid(eb9198f97ecd76f449e605a063a08395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d456d4b138689fcc553c733b28bad5') in 0.025041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/MapMakerV1/Texture/EARSER.jpg
+  artifactKey: Guid(dcdc3fcc6822b164f8c94b1cfa333b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapMakerV1/Texture/EARSER.jpg using Guid(dcdc3fcc6822b164f8c94b1cfa333b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d5c94ae459ea00450d514b19c21654') in 0.119794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/MapMakerV1/Texture/tile.png
+  artifactKey: Guid(c00f40f990d9b3340969dccde9c2afc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapMakerV1/Texture/tile.png using Guid(c00f40f990d9b3340969dccde9c2afc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5f80eed92bc32116e8d971907834b9') in 0.035855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/MapMakerV1/Texture/TITLE.jpg
+  artifactKey: Guid(7a3e37175b5235245a17a6b4d3cd518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapMakerV1/Texture/TITLE.jpg using Guid(7a3e37175b5235245a17a6b4d3cd518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74194d4ce592e83a3d3a3f7d9ddc31d2') in 0.027759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/BLOCK_BLUE.prefab
+  artifactKey: Guid(fe14dbc580bb49046a5ede93d3fd3880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/BLOCK_BLUE.prefab using Guid(fe14dbc580bb49046a5ede93d3fd3880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ddb2a8dd5e022f49ca9323c3f0b26a') in 0.029367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/MapMakerV1/Texture/RANDOM.jpg
+  artifactKey: Guid(a9a62c40276de6a48b75295d8ec82cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapMakerV1/Texture/RANDOM.jpg using Guid(a9a62c40276de6a48b75295d8ec82cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c359e41eabafba7048944e0857efba0') in 0.026278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/MapMakerV1/MapMaker.prefab
+  artifactKey: Guid(a5294b287cca8f8499be75da9c531395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapMakerV1/MapMaker.prefab using Guid(a5294b287cca8f8499be75da9c531395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1483323328ea55397e9d560ca5995aeb') in 0.035463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.798850 seconds.
+  path: Assets/Resources/MapMaker_Bonus_Arkanoid_Data/fbx/Paddle.fbx
+  artifactKey: Guid(927132728fbff20448f3af7278580724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapMaker_Bonus_Arkanoid_Data/fbx/Paddle.fbx using Guid(927132728fbff20448f3af7278580724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8aa586d103039ddfdcfe7f43c2ebdc8') in 0.066270 seconds 
