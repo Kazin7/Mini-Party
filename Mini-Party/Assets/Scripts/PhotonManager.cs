@@ -66,13 +66,14 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         //룸에 접속한 사용자 정보 확인
         foreach(var player in PhotonNetwork.CurrentRoom.Players){
             Debug.Log($"{player.Value.NickName},{player.Value.ActorNumber}");
-            playerNum = player.Value.ActorNumber;
+            playerNum = PhotonNetwork.LocalPlayer.ActorNumber;
             //$ => String.Format() $""
         }
 
         //캐릭터 출현 정보를 배열에 저장
         Transform[] points = GameObject.Find("SpawnPointGroup").GetComponentsInChildren<Transform>();
         int idx = playerNum;
+        
         //캐릭터 생성
         PhotonNetwork.Instantiate("Player",points[idx].position,points[idx].rotation,0);
     }
