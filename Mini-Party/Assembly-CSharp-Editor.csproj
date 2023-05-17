@@ -36,7 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Resources\MapMakerV1\Sources\Editor\MapMagEditor.cs" />
+     <Compile Include="Assets\Resources\MapMakerV1\Sources\Editor\PrefabPlacer.cs" />
+     <Compile Include="Assets\Resources\MapMakerV1\Sources\Editor\PrefabData.cs" />
+     <Compile Include="Assets\Resources\MapMakerV1\Sources\Editor\CommonEditorUi.cs" />
+     <Compile Include="Assets\Resources\MapMakerV1\Sources\Editor\MapMaker.cs" />
+     <Compile Include="Assets\Resources\MapMakerV1\Sources\Editor\MapDataLoad.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\Editor\ChatEditor.cs" />
+     <Compile Include="Assets\Resources\MapMakerV1\Sources\Editor\PrefabButton.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2021.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
