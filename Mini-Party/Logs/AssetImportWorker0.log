@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 16322 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 32699 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+C:\Program Files\Unity 2021.3.8f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/98psw/Desktop/캡스톤/Mini-Party
+C:/Users/kng22/OneDrive/바탕 화면/Unity Project/Mini-Party/Mini-Party
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50318
-Successfully changed project path to: C:/Users/98psw/Desktop/캡스톤/Mini-Party
-C:/Users/98psw/Desktop/캡스톤/Mini-Party
+10484
+Successfully changed project path to: C:/Users/kng22/OneDrive/바탕 화면/Unity Project/Mini-Party/Mini-Party
+C:/Users/kng22/OneDrive/바탕 화면/Unity Project/Mini-Party/Mini-Party
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,105 +47,105 @@ C:/Users/98psw/Desktop/캡스톤/Mini-Party
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 193.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/98psw/Desktop/캡스톤/Mini-Party/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kng22/OneDrive/바탕 화면/Unity Project/Mini-Party/Mini-Party/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
     Vendor:   NVIDIA
-    VRAM:     8031 MB
-    Driver:   31.0.15.1694
+    VRAM:     8001 MB
+    Driver:   31.0.15.3179
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Mono path[0] = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.024422 seconds.
+Register platform support module: C:/Program Files/Unity 2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014384 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 147.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.045 seconds
+- Completed reload, in  0.741 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1046ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (741ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (687ms)
-			LoadAssemblies (159ms)
+		EndReloadAssembly (463ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (401ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (273ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (148ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.026205 seconds.
+Registered in 0.018713 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\98psw\Desktop\캡스톤\Mini-Party\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\98psw\Desktop\캡스톤\Mini-Party\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kng22\OneDrive\바탕 화면\Unity Project\Mini-Party\Mini-Party\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kng22\OneDrive\바탕 화면\Unity Project\Mini-Party\Mini-Party\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.837 seconds
+- Completed reload, in  1.274 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1838ms)
-		BeginReloadAssembly (226ms)
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (159ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1420ms)
-			LoadAssemblies (228ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (975ms)
+			LoadAssemblies (161ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
+			SetupTypeCache (270ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (708ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (460ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (161ms)
-				ProcessInitializeOnLoadAttributes (449ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (29ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (21ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3890 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (182.4 KB). Loaded Objects now: 4363.
-Memory consumption went from 142.0 MB to 141.8 MB.
-Total: 5.601600 ms (FindLiveObjects: 0.783800 ms CreateObjectMapping: 0.552300 ms MarkObjects: 4.126700 ms  DeleteObjects: 0.137600 ms)
+Unloading 3892 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (182.5 KB). Loaded Objects now: 4365.
+Memory consumption went from 142.1 MB to 141.9 MB.
+Total: 3.505500 ms (FindLiveObjects: 0.496300 ms CreateObjectMapping: 0.434100 ms MarkObjects: 2.443400 ms  DeleteObjects: 0.130500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,100 +159,46 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 54783.557356 seconds.
-  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Tile_Acc_PlanksV1.prefab
-  artifactKey: Guid(91926a45e0d0dc54ea99f38a9c693b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Tile_Acc_PlanksV1.prefab using Guid(91926a45e0d0dc54ea99f38a9c693b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1191618d6e0a1f1cbfa7222089ef6ead') in 0.280149 seconds 
+  Time since last request: 268504.965337 seconds.
+  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Block_DirtV1.prefab
+  artifactKey: Guid(345b4eb90121b06469cd3de2d5a284a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Block_DirtV1.prefab using Guid(345b4eb90121b06469cd3de2d5a284a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37b299b971f59e08120cce08a06bb8d') in 0.122267 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000589 seconds.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/DropTile_Third.prefab
+  artifactKey: Guid(262a7d9ae0aea174bbc9409adc93b997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/DropTile_Third.prefab using Guid(262a7d9ae0aea174bbc9409adc93b997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f8222cbbd6dbf98a465beb63ecb00d') in 0.024806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Tile_GrassV1.prefab
+  artifactKey: Guid(f05cfd06889e8ef4fbf6e974d3deb568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Tile_GrassV1.prefab using Guid(f05cfd06889e8ef4fbf6e974d3deb568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498fdea3bcb2655b0423642d271b0e1b') in 0.026939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
   path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Tile_WaterV1.prefab
   artifactKey: Guid(ebe891e4eae167b4295a63805b1cc816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Tile_WaterV1.prefab using Guid(ebe891e4eae167b4295a63805b1cc816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd26605a2efd443b3e4938720f065d7') in 0.028924 seconds 
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Tile_WaterV1.prefab using Guid(ebe891e4eae167b4295a63805b1cc816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133ad822c4acadcdca4ed843f30e368e') in 0.025860 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Block_StoneV1.prefab
-  artifactKey: Guid(502e2b420b4d50c458941571369fefbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Block_StoneV1.prefab using Guid(502e2b420b4d50c458941571369fefbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fb3c5c333cb6b728c7139cebe5f6fa') in 0.031695 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Tile_Acc_RockWGrassV1.prefab
+  artifactKey: Guid(7c19e2f665a52604982c7734e6ad6def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Tile_Acc_RockWGrassV1.prefab using Guid(7c19e2f665a52604982c7734e6ad6def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0aeb63782149831ecef69baf0b6a98') in 0.026948 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 302.447004 seconds.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Tile_StoneV1.prefab
+  artifactKey: Guid(214810fd776b4ad48b546807443be0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/USER_Prefabs/Bonus_Arkanoid_Prefab/Tile_StoneV1.prefab using Guid(214810fd776b4ad48b546807443be0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733469ec4967306e50e752053793ecc9') in 0.017115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.187465 seconds.
   path: Assets/Prefab/CompletMapGroup.prefab
   artifactKey: Guid(098035d8d60fc3948a6f91a7aa188b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/CompletMapGroup.prefab using Guid(098035d8d60fc3948a6f91a7aa188b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640d0284bab200ea4c005ba86cc50623') in 0.056134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.501945 seconds.
-  path: Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Prefabs/Block_DirtV1.prefab
-  artifactKey: Guid(feb62447434f44642a447de4e34b370e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Prefabs/Block_DirtV1.prefab using Guid(feb62447434f44642a447de4e34b370e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7d82f20dd6a2e55a3d7db13042e5b6') in 0.015715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010018 seconds.
-  path: Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Prefabs/Block_StoneV1.prefab
-  artifactKey: Guid(14251c195d631f64998af068e988a8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Prefabs/Block_StoneV1.prefab using Guid(14251c195d631f64998af068e988a8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3e7a94647364c0030f48ce3b6b690b') in 0.032058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Prefabs/Tile_Acc_RockWGrassV1.prefab
-  artifactKey: Guid(90e82e4a9b9809f47978b97c8a749572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Prefabs/Tile_Acc_RockWGrassV1.prefab using Guid(90e82e4a9b9809f47978b97c8a749572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9f6563734510635e09c135d8b04a37') in 0.020977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Prefabs/Tile_Acc_PlanksV1.prefab
-  artifactKey: Guid(9270649ea4d2d9b448794d6b71b8c853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Prefabs/Tile_Acc_PlanksV1.prefab using Guid(9270649ea4d2d9b448794d6b71b8c853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bbc3cce2c6d8c6785f7c312caa205c') in 0.025496 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Prefabs/Tile_TreeV1.prefab
-  artifactKey: Guid(d0713c6354bd67147a06036826a460f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Prefabs/Tile_TreeV1.prefab using Guid(d0713c6354bd67147a06036826a460f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31946e249db3ba927734b1b58ceada7b') in 0.019885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Prefabs/Tile_GrassV1.prefab
-  artifactKey: Guid(154703c8827a19241a289d4cd734d234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Prefabs/Tile_GrassV1.prefab using Guid(154703c8827a19241a289d4cd734d234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fc76becbf77c8965cc8981f90ba50f') in 0.018785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.631456 seconds.
-  path: Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Models/Block_DirtV1.fbx
-  artifactKey: Guid(dac29f951da779844913614e3c79e634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Models/Block_DirtV1.fbx using Guid(dac29f951da779844913614e3c79e634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1f983c48c8eb2189f6db0e14ef0669') in 0.060932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Models/Tile_Acc_StonePlatesV1.fbx
-  artifactKey: Guid(2c276cceabefb7e48b431d79825e4f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Models/Tile_Acc_StonePlatesV1.fbx using Guid(2c276cceabefb7e48b431d79825e4f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c98ff16cfb8b8a19f043a7d81d573ba') in 0.026842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Models/Tile_TreeV1.fbx
-  artifactKey: Guid(f96915634a74607438059aa2a6130af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Models/Tile_TreeV1.fbx using Guid(f96915634a74607438059aa2a6130af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd585295f20e2483fbc290bb5b2477b26') in 0.026353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Models/Tile_GrassV1.fbx
-  artifactKey: Guid(ade8b0d81a603704e8278c744f3415e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Models/Tile_GrassV1.fbx using Guid(ade8b0d81a603704e8278c744f3415e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6531aef14191554d33f450c38ea5c06d') in 0.030064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Models/Tile_Acc_RockWGrassV1.fbx
-  artifactKey: Guid(237592f07ec28eb4b87fa4e7c8512c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Models/Tile_Acc_RockWGrassV1.fbx using Guid(237592f07ec28eb4b87fa4e7c8512c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1814f55341c836c1dc7beef08702a4') in 0.034175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Models/Tile_Acc_PlanksV1.fbx
-  artifactKey: Guid(0f6e34e3bc0f8a6419fcf61eb75e8291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Alstra Infinite/Platform Tiles - PolyPack/Models/Tile_Acc_PlanksV1.fbx using Guid(0f6e34e3bc0f8a6419fcf61eb75e8291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b836273d4045573b9de91b46e9546d07') in 0.032838 seconds 
+Start importing Assets/Prefab/CompletMapGroup.prefab using Guid(098035d8d60fc3948a6f91a7aa188b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f41f658088c828923438e42f0a79157') in 0.038932 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

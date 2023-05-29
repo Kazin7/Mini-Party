@@ -41,7 +41,9 @@
      <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
+     <Compile Include="Assets\Scripts\DropGame\SmoothFollow.cs" />
      <Compile Include="Assets\Scripts\BulltetManager.cs" />
+     <Compile Include="Assets\Scripts\DropGame\DropPlayer.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
      <Compile Include="Assets\Import\FurnishedCabin\Scripts\MoveableObject.cs" />
      <Compile Include="Assets\Scripts\PhotonManager.cs" />
@@ -63,6 +65,8 @@
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
      <Compile Include="Assets\Scripts\settingName.cs" />
      <Compile Include="Assets\Scripts\SimpleSampleCharacterControl.cs" />
+     <Compile Include="Assets\Scripts\DropGame\DropPhotonManager.cs" />
+     <Compile Include="Assets\Scripts\DropGame\DropTile.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />

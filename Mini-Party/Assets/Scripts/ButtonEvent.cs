@@ -11,7 +11,7 @@ public class ButtonEvent : MonoBehaviour
 
     public void OnClick(){
         nickName = playerName.GetComponent<TMP_InputField>().text;
-        SceneManager.LoadScene("JumpSitGame");
+        SceneManager.LoadScene("Game Robby");
     }
     // Start is called before the first frame update
     void Start()

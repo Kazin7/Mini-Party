@@ -1,10 +1,659 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1685336869740562, "dur": 608310, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685336869740839, "dur": 5055, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685336869745897, "dur": 61557, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685336869807488, "dur": 527275, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685336870334765, "dur": 14107, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685336870349684, "dur": 10, "ph": "X", "name": "", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685336870349675, "dur": 85, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685339822679199, "dur": 924828, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685339822679409, "dur": 8399, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685339822687810, "dur": 32450, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685339822720262, "dur": 460155, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685339823180418, "dur": 409972, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685339823590392, "dur": 13634, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685339823604898, "dur": 99, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1685339822844997, "dur": 317122, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685339822845868, "dur": 46120, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685339823146714, "dur": 4999, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685339823151718, "dur": 10394, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685339823152397, "dur": 8644, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685339823165919, "dur": 1053, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685339823165243, "dur": 1749, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685339823605184, "dur": 1135, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685339823222487, "dur":1380, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823223875, "dur":101, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685339823224010, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685339823224036, "dur":610, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685339823224705, "dur":571, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823225276, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574570, "dur":267, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574837, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574847, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574848, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574856, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574857, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574862, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574863, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574868, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574869, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574874, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574875, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574880, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574881, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574887, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574888, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574893, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574905, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823574922, "dur":2473, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685339823224816, "dur":534, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823225350, "dur":8834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823234184, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685339823234307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823238350, "dur":2685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685339823241142, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685339823241275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823241603, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685339823243785, "dur":20786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823264573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823265174, "dur":57464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823322733, "dur":1131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823323868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823323875, "dur":2830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823326887, "dur":15786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823342677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823342685, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823346209, "dur":924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823347138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823347147, "dur":4795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823352034, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823352829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823352837, "dur":6439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823359395, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823359934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823359940, "dur":3919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823363933, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823364330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823364337, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823367009, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823367692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823367699, "dur":6091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823373866, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823374319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823374324, "dur":9212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823383701, "dur":655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823384359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823384365, "dur":4024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823388466, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823389136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823389142, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823392114, "dur":1469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823393585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823393591, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823394954, "dur":635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823395591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823395596, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823396952, "dur":2418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823399395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823399403, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1685339823400933, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823401615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823401620, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823404854, "dur":4114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823408971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823408977, "dur":31135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685339823441045, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1685339823441193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823441199, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1685339823442795, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1685339823442866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823442870, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1685339823444318, "dur":808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1685339823445128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685339823445133, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1685339823446726, "dur":127834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685339823224776, "dur":532, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685339823225311, "dur":8713, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685339823234038, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685339823234039, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685339823234206, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685339823234211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685339823235751, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685339823238461, "dur":812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685339823239276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685339823239739, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685339823242039, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1685339823242165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685339823242170, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1685339823244214, "dur":92933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685339823337149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685339823337153, "dur":237274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685339823574497, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1685339823574498, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823224933, "dur":421, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823225354, "dur":8677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823234038, "dur":881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1685339823234921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823237923, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1685339823239456, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685339823239813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823239818, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685339823241805, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685339823241976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823241981, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685339823244359, "dur":8936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1685339823253297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823253301, "dur":8247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1685339823261625, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823261973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823261979, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823264260, "dur":1268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1685339823265530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823265612, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1685339823267361, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823267900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823267905, "dur":4056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823272259, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823272783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823272788, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823274876, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823275150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823275154, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823278727, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823279251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823279257, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823281753, "dur":1062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823282817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823282821, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823286638, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823287022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823287044, "dur":2989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823290111, "dur":1197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823291311, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823291315, "dur":7746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823299139, "dur":2662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1685339823301803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823301809, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1685339823303352, "dur":13309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823316663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823316669, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823319103, "dur":15056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823334161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823334167, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823337216, "dur":23343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823360561, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823360565, "dur":4658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823365359, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823365907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823365913, "dur":3986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823369984, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823370441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823370446, "dur":8354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823378876, "dur":6236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823385114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823385118, "dur":20281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823405484, "dur":884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823406370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823406376, "dur":3321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823409777, "dur":38975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823448754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685339823448760, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685339823451001, "dur":123513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823225058, "dur":301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823225359, "dur":8705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823234064, "dur":856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685339823234922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823238317, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685339823240435, "dur":718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685339823241155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823241159, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685339823242884, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1685339823243021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823243026, "dur":3098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1685339823246264, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823246779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823247082, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823250299, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823250662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823250668, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823253125, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823253461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823253466, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823255818, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823256124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823256128, "dur":3749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823259950, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823260357, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823260362, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823263471, "dur":1806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823265279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823265285, "dur":8709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823274077, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823274395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823274400, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823276565, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823277286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823277291, "dur":3764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823281131, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823281411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823281415, "dur":4545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823286039, "dur":560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823286601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823286606, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823288937, "dur":789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823289729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823289734, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823292278, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823292671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823292676, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823295131, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823295505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823295509, "dur":2630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823298234, "dur":1888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1685339823300124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823300130, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1685339823301668, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823302150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823302155, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823304706, "dur":1252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1685339823305960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823305966, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1685339823307451, "dur":1541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1685339823308995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823309002, "dur":3391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1685339823312472, "dur":16380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823328856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823328863, "dur":3828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823332846, "dur":17774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823350625, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823350635, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823353522, "dur":26454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823379978, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823379982, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823382970, "dur":1634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823384606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823384610, "dur":8444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823393149, "dur":19355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823412506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823412511, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685339823415003, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685339823415133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823415137, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685339823416814, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685339823416897, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823416901, "dur":18563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685339823435543, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685339823435623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823435632, "dur":4562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685339823440275, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1685339823440359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823440363, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1685339823442249, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1685339823442326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823442330, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1685339823444046, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1685339823444126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685339823444129, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1685339823445678, "dur":128883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823225111, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823225361, "dur":8875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823234237, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1685339823234367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823238521, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1685339823241209, "dur":713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1685339823241924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823241930, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1685339823244128, "dur":1835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823245966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823245971, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823248542, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823248877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823248964, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823251621, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823252005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823252010, "dur":2554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823254651, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823255083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823255088, "dur":2389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823257554, "dur":799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823258356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823258360, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823262347, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823262674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823262677, "dur":2608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823265372, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823266174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823266179, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823269004, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823269347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823269352, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823271477, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823271895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823271899, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823274074, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823274431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823274435, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823276816, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823277162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823277167, "dur":3041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823280297, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823280596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823280601, "dur":3577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823284321, "dur":1185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823285508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823285513, "dur":2490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823288126, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823288504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823288508, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823291319, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823291781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823291785, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823294646, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823294943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823294948, "dur":4570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823299586, "dur":15866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823315454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823315460, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823318225, "dur":17605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823335834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823335842, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823339144, "dur":21333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823360480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823360485, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823363625, "dur":2882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823366509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823366515, "dur":17423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823384060, "dur":17060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823401123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823401128, "dur":2974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823404190, "dur":995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823405187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823405211, "dur":5135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685339823410419, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1685339823410634, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823411009, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1685339823412278, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1685339823412357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823412472, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1685339823413929, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1685339823413999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823414003, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1685339823415302, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685339823415389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823415392, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685339823416751, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1685339823416832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823416836, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1685339823420053, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1685339823420126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823420134, "dur":4015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1685339823426294, "dur":571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1685339823426871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823426879, "dur":2876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1685339823429836, "dur":10285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1685339823440124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823440134, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1685339823443678, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1685339823443767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685339823443771, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1685339823445201, "dur":129329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823225220, "dur":149, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823225370, "dur":8697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823234067, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1685339823234223, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823238802, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1685339823241073, "dur":1424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1685339823242500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823242505, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1685339823245107, "dur":1378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party.exe" }}
+,{ "pid":12345, "tid":6, "ts":1685339823246487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823246491, "dur":5092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party.exe" }}
+,{ "pid":12345, "tid":6, "ts":1685339823251730, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823252037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823252041, "dur":2595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823254716, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823255135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823255139, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823258137, "dur":609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823258748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823258752, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823261578, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823262022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823262026, "dur":2451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823264582, "dur":17113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823281697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823281719, "dur":4814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823286642, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823287113, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823287117, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823289945, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823290305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823290326, "dur":2772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823293202, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823293625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823293630, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823295878, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823296184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823296188, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823298778, "dur":14366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823313147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823313154, "dur":3216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823316508, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823317245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823317250, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823318731, "dur":654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823319387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823319394, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823321263, "dur":953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823322222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823322226, "dur":4211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823326516, "dur":854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823327374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823327401, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823329672, "dur":1225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823330901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823330908, "dur":2086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823333070, "dur":975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823334048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823334055, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823336117, "dur":856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823336977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823336982, "dur":6114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823343175, "dur":22981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823366158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823366163, "dur":3599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823369883, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823370380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823370386, "dur":2908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823373375, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823373768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823373774, "dur":4182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823378170, "dur":992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823379164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823379170, "dur":4533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823383799, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823384587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823384591, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823386646, "dur":843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823387491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823387498, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823389093, "dur":12062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823401157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823401162, "dur":2721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685339823403960, "dur":1163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823405125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823405130, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823406812, "dur":1035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823407850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823407855, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823409632, "dur":2356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823411992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823411998, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1685339823413482, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1685339823413553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823413558, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1685339823414798, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685339823414886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823414890, "dur":21642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685339823436611, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level4.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685339823436696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823436703, "dur":4552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level4.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685339823441703, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685339823441786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685339823441792, "dur":5423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685339823447458, "dur":127099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823225356, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823225356, "dur":8712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823234069, "dur":948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1685339823235019, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823238294, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1685339823240627, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685339823240768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823240773, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685339823243269, "dur":5260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823248531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823248775, "dur":4708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823253562, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823254027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823254095, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823256940, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823257281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823257286, "dur":3434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823260797, "dur":1670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823262469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823262474, "dur":3370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823266058, "dur":1445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823267506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823267513, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823270374, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823270702, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823270732, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823273041, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823273362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823273366, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823275463, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823275826, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823275830, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823278730, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823279267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823279271, "dur":4868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823284222, "dur":1209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823285434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823285439, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823288270, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823288610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823288614, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823291337, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823291863, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823291867, "dur":3900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823295850, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823296355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823296359, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823299016, "dur":16277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823315297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823315304, "dur":6172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823321780, "dur":15725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823337508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823337514, "dur":5136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823342758, "dur":1582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1685339823344345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823344353, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1685339823346256, "dur":15023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823361281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823361286, "dur":6820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823368413, "dur":2072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823370487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823370491, "dur":9389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823380000, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823380430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823380451, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823383015, "dur":1116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823384134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823384142, "dur":3067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823387286, "dur":13848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823401136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823401141, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823404313, "dur":582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823404897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823404904, "dur":2882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823407871, "dur":16201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823424075, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823424085, "dur":6031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685339823430193, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685339823430276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823430284, "dur":13518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685339823443885, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685339823443970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685339823443973, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685339823445367, "dur":129146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823225470, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823225470, "dur":8576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823234047, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685339823234349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823238855, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685339823240862, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685339823241021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823241587, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685339823245112, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1685339823245330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823245712, "dur":9796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1685339823255608, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823255913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823255918, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823259133, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823259520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823259525, "dur":3683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823263303, "dur":796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823264101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823264106, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823267255, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823267577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823267581, "dur":2797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823270465, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823270809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823270813, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823273413, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823273708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823273712, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823275892, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823276297, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823276301, "dur":2352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823278760, "dur":1136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823279899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823279905, "dur":4248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823284262, "dur":1287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823285551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823285555, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823288896, "dur":879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823289777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823289781, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823292477, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823292882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823292886, "dur":2721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823295697, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823296044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823296048, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823298914, "dur":1339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1685339823300255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823300261, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1685339823301995, "dur":3454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1685339823305470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823305476, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1685339823307026, "dur":15148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823322176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823322183, "dur":14045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823336312, "dur":24149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823360464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823361219, "dur":14107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823375420, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823375825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823375830, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823378487, "dur":2487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823380976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823380981, "dur":14369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823395428, "dur":51814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823447245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685339823447251, "dur":2628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kng22/OneDrive/ /Unity Game/Mini-Party_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685339823449954, "dur":124578, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685339823579494, "dur":1789, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1685339823606464, "dur": 1569, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685339823604888, "dur": 3173, "ph": "X", "name": "Write chrome-trace events", "args": {} },
