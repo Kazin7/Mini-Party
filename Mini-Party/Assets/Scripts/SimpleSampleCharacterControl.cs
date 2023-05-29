@@ -17,6 +17,9 @@ public class SimpleSampleCharacterControl : MonoBehaviourPunCallbacks
         Direct
     }
 
+    private Transform tr;
+    private PhotonView pv;
+
     [SerializeField] private float m_moveSpeed = 2;
     [SerializeField] private float m_turnSpeed = 200;
     [SerializeField] private float m_jumpForce = 4;
@@ -51,6 +54,17 @@ public class SimpleSampleCharacterControl : MonoBehaviourPunCallbacks
     {
         if (!m_animator) { gameObject.GetComponent<Animator>(); }
         if (!m_rigidBody) { gameObject.GetComponent<Animator>(); }
+    }
+    
+    void Start() 
+    {
+        tr = GetComponent<Transform>();
+        pv = GetComponent<PhotonView>();
+
+        if(pv.IsMine)
+        {
+            Camera.main.GetComponent<SmoothFollow>().target = tr;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
