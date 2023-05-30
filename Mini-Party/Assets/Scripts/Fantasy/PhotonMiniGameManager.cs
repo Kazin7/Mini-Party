@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.SceneManagement;
 
 public class PhotonMiniGameManager : MonoBehaviourPunCallbacks
 {
@@ -47,7 +48,7 @@ public class PhotonMiniGameManager : MonoBehaviourPunCallbacks
 
         //룸의 속성 정의
         RoomOptions ro = new RoomOptions();
-        ro.MaxPlayers = 4;//최대 접속자수
+        ro.MaxPlayers = 20;//최대 접속자수
         ro.IsOpen = true;//룸의 오픈여부
         ro.IsVisible = true;//로비에서 룸 목록에 노출 시킬지 여부
 
@@ -78,5 +79,9 @@ public class PhotonMiniGameManager : MonoBehaviourPunCallbacks
         PhotonNetwork.Instantiate("MiniGamePlayer_0"+Random.RandomRange(0,0), pos[Random.RandomRange(0,pos.Length)].position,Quaternion.identity);
         
 
+    }
+    public void GoToTItle()
+    {
+        SceneManager.LoadScene("StartScene");
     }
 }
