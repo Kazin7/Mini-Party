@@ -16,6 +16,6 @@ public class GameChange : MonoBehaviour
     {
         if (this.gameObject.name == "CannonGame")
             if (Input.GetMouseButtonDown(0))
-                SceneManager.LoadScene("DropGame",LoadSceneMode.Single);
+                SceneManager.LoadScene("CannonGame",LoadSceneMode.Single);
     }
 }

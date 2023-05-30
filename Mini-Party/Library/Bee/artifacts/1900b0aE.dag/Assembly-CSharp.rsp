@@ -400,6 +400,7 @@
 "Assets/Scripts/ButtonEvent.cs"
 "Assets/Scripts/CannonGame/BulltetManager.cs"
 "Assets/Scripts/CannonGame/CannonCtrl.cs"
+"Assets/Scripts/CannonGame/CannonMove.cs"
 "Assets/Scripts/CannonGame/CanonCtrl2.cs"
 "Assets/Scripts/CannonGame/PlayerPos.cs"
 "Assets/Scripts/CannonGame/Rank.cs"
