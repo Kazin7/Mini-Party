@@ -422,6 +422,7 @@
 "Assets/Scripts/PhotonManager.cs"
 "Assets/Scripts/settingName.cs"
 "Assets/Scripts/SimpleSampleCharacterControl.cs"
+"Assets/Scripts/SpawnManager.cs"
 "Assets/Scripts/SunMoving.cs"
 "Assets/Scripts/TextAbovePlayer.cs"
 -langversion:9.0
