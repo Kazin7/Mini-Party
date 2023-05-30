@@ -17,6 +17,7 @@ public class SimpleSampleCharacterControl : MonoBehaviourPunCallbacks
         Direct
     }
 
+    public AudioSource src;
     private Transform tr;
     private PhotonView pv;
 
@@ -60,6 +61,7 @@ public class SimpleSampleCharacterControl : MonoBehaviourPunCallbacks
     {
         tr = GetComponent<Transform>();
         pv = GetComponent<PhotonView>();
+        src = GetComponent<AudioSource>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -123,7 +125,14 @@ public class SimpleSampleCharacterControl : MonoBehaviourPunCallbacks
         {
             if (!m_jumpInput && Input.GetKey(KeyCode.Space))
             {
-                m_jumpInput = true;
+                if(!src.isPlaying){
+                    src.Play();
+                    m_jumpInput = true;
+                }
+                else{
+                    src.Stop();
+                }
+                
             }
         }
     }
