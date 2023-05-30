@@ -87,6 +87,7 @@
      <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
      <Compile Include="Assets\Scripts\CannonGame\PlayerPos.cs" />
      <Compile Include="Assets\Import\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
+     <Compile Include="Assets\Scripts\GameChange.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

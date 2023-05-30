@@ -275,8 +275,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uB2C9\uB124\uC784\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694 \n     <
-    \uCD5C\uB300 7\uAE00\uC790 >"
+  m_text: "\uB2C9\uB124\uC784\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694 \n < \uCD5C\uB300
+    7\uAE00\uC790 \uAD8C\uC7A5 >"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5120ecaf41f99fd4b86f8d7bc888c80d, type: 2}
   m_sharedMaterial: {fileID: -9058642739025958418, guid: 5120ecaf41f99fd4b86f8d7bc888c80d, type: 2}
