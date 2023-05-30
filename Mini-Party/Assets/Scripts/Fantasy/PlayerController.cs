@@ -127,7 +127,7 @@ namespace Q
                         currentItem = ItemType.NONE;
 
                         if(_pv.IsMine)
-                        itemText.text = "ÇöÀç ¾ÆÀÌÅÛ : ¾øÀ½";
+                        itemText.text = "í˜„ì¬ ì•„ì´í…œ : ì—†ìŒ";
                         break;
                     case ItemType.Punch:
 
@@ -139,7 +139,7 @@ namespace Q
 
                         currentItem = ItemType.NONE;
                         if (_pv.IsMine)
-                            itemText.text = "ÇöÀç ¾ÆÀÌÅÛ : ¾øÀ½";
+                            itemText.text = "í˜„ì¬ ì•„ì´í…œ : ì—†ìŒ";
                         break;
                     case ItemType.WaterBall:
 
@@ -151,7 +151,7 @@ namespace Q
 
                         currentItem = ItemType.NONE;
                         if (_pv.IsMine)
-                            itemText.text = "ÇöÀç ¾ÆÀÌÅÛ : ¾øÀ½";
+                            itemText.text = "í˜„ì¬ ì•„ì´í…œ : ì—†ìŒ";
                         break;
 
                     case ItemType.Slow:
@@ -165,7 +165,7 @@ namespace Q
                         }
                         currentItem = ItemType.NONE;
                         if (_pv.IsMine)
-                            itemText.text = "ÇöÀç ¾ÆÀÌÅÛ : ¾øÀ½";
+                            itemText.text = "í˜„ì¬ ì•„ì´í…œ : ì—†ìŒ";
                         break;
 
                 }
@@ -220,13 +220,13 @@ namespace Q
                 string result = "";
                 switch (other.GetComponent<MiniGameItem>().type)
                 {
-                    case ItemType.Booster:result = "ºÎ½ºÅÍ"; break;
-                    case ItemType.Slow: result = "½½·Î¿ì";break;
-                    case ItemType.Punch: result = "ÆİÄ¡"; break;
-                    case ItemType.WaterBall: result = "¹°Ç³¼±"; break;
+                    case ItemType.Booster:result = "ë¶€ìŠ¤í„°"; break;
+                    case ItemType.Slow: result = "ìŠ¬ë¡œìš°";break;
+                    case ItemType.Punch: result = "í€ì¹˜"; break;
+                    case ItemType.WaterBall: result = "ë¬¼í’ì„ "; break;
                 }
                 if (_pv.IsMine)
-                    itemText.text = "ÇöÀç ¾ÆÀÌÅÛ : " + result;
+                    itemText.text = "í˜„ì¬ ì•„ì´í…œ : " + result;
                 if (_pv.IsMine)
                 {
                     //tx.text = other.GetComponent<MiniGameItem>().type.ToString();

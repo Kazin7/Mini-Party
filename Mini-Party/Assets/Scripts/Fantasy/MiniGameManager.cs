@@ -27,7 +27,7 @@ public class MiniGameManager : MonoBehaviour
     {
         isGameClear = true;
         rankTx.gameObject.SetActive(true);
-        rankTx.text = rank + "µî ÀÔ´Ï´Ù.";
+        rankTx.text = rank + "ë“± ìž…ë‹ˆë‹¤.";
     }
 
 }
