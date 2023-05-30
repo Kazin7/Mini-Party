@@ -423,7 +423,7 @@ Animator:
   m_GameObject: {fileID: 4145814709521853886}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 8ff35ffdba545b84ca0bca74f0447a5c, type: 3}
-  m_Controller: {fileID: 9100000, guid: 2e8d460a1a6041b459159959f8b78596, type: 2}
+  m_Controller: {fileID: 9100000, guid: c2f452b012b469f40b823e67fe1cb028, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -552,7 +552,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowLayerWeightsInspector: 1
   ShowParameterInspector: 1
-  m_SynchronizeParameters: []
+  m_SynchronizeParameters:
+  - Type: 4
+    SynchronizeType: 0
+    Name: isMove
   m_SynchronizeLayers:
   - SynchronizeType: 0
     LayerIndex: 0
