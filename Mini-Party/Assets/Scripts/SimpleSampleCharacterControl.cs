@@ -60,11 +60,6 @@ public class SimpleSampleCharacterControl : MonoBehaviourPunCallbacks
     {
         tr = GetComponent<Transform>();
         pv = GetComponent<PhotonView>();
-
-        if(pv.IsMine)
-        {
-            Camera.main.GetComponent<SmoothFollow>().target = tr;
-        }
     }
 
     private void OnCollisionEnter(Collision collision)

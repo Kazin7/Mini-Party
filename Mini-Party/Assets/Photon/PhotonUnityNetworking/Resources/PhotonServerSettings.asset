@@ -43,6 +43,7 @@ MonoBehaviour:
   - Goal
   - Off
   - Punch
+  - UpdatePlayerRank
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

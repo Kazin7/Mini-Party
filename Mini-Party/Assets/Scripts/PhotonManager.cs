@@ -27,13 +27,12 @@ public class PhotonManager : MonoBehaviourPunCallbacks
 
     //포톤 서버에 접속후 호출되는 콜백 함수
     public override void OnConnectedToMaster(){
-        Debug.Log("Connected to Master!!");
-        Debug.Log($"PhotonNetwork.InLobby = {PhotonNetwork.InLobby}");
+        //$"PhotonNetwork.InLobby = {PhotonNetwork.InLobby}"
         PhotonNetwork.JoinLobby(); //로비 입장
     }
     //로비에 접속 후 호출되는 콜백 함수
     public override void OnJoinedLobby(){
-        Debug.Log($"PhotonNetwork.InLobby = {PhotonNetwork.InLobby}");
+        //$"PhotonNetwork.InLobby = {PhotonNetwork.InLobby}"
         PhotonNetwork.JoinRandomRoom(); // 랜덤 매치메이킹 기능 제공
 
     }
@@ -44,7 +43,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
 
         //룸의 속성 정의
         RoomOptions ro = new RoomOptions();
-        ro.MaxPlayers = 20;//최대 접속자수
+        ro.MaxPlayers = 4;//최대 접속자수
         ro.IsOpen = true;//룸의 오픈여부
         ro.IsVisible = true;//로비에서 룸 목록에 노출 시킬지 여부
 
@@ -54,18 +53,17 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     }
     //룸 생성 후 호출되는 콜백 함수
     public override void OnCreatedRoom(){
-        Debug.Log("Created Room");
-        Debug.Log($"Room Name = {PhotonNetwork.CurrentRoom.Name}");
+        //$"Room Name = {PhotonNetwork.CurrentRoom.Name}"
     }
 
     //룸에 입장한 후 호출되는 콜백 함수
     public override void OnJoinedRoom(){
-        Debug.Log($"PhotonNetwork.InRoom = {PhotonNetwork.InRoom}");
-        Debug.Log($"Player Count = {PhotonNetwork.CurrentRoom.PlayerCount}");
+        //$"PhotonNetwork.InRoom = {PhotonNetwork.InRoom}"
+        //$"Player Count = {PhotonNetwork.CurrentRoom.PlayerCount}"
 
         //룸에 접속한 사용자 정보 확인
         foreach(var player in PhotonNetwork.CurrentRoom.Players){
-            Debug.Log($"{player.Value.NickName},{player.Value.ActorNumber}");
+            //$"{player.Value.NickName},{player.Value.ActorNumber}"
             playerNum = PhotonNetwork.LocalPlayer.ActorNumber;
             //$ => String.Format() $""
         }
