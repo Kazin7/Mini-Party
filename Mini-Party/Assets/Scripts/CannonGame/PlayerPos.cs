@@ -17,7 +17,7 @@ public class PlayerPos : MonoBehaviour
     void Update()
     {
         Ypos = this.transform.position.y;
-        if(Ypos < -10f){
+        if(Ypos < -5f){
             if(pv.IsMine && !drop){
                 drop = true;
                 Rank.Instance.pv.RPC("Goal",RpcTarget.AllBufferedViaServer);
