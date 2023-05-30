@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
+using TMPro;
 public class Rank : MonoBehaviour
 {
 
     public static Rank Instance;
     public bool isGameClear;
     public int rank;
-    public Text rankTx;
+    public TextMeshProUGUI rankTx;
     public PhotonView pv;
 
     [PunRPC]
@@ -19,7 +20,6 @@ public class Rank : MonoBehaviour
     }
     private void Awake()
     {
-        rank -= 1;
         Instance = this;
         pv = GetComponent<PhotonView>();
     }
@@ -28,6 +28,7 @@ public class Rank : MonoBehaviour
         isGameClear = true;
         rankTx.gameObject.SetActive(true);
         rankTx.text = rank + "등 입니다.";
+        rank -= 1;
     }
 
 }

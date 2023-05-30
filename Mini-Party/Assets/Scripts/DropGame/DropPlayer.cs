@@ -18,7 +18,6 @@ public class DropPlayer : MonoBehaviourPunCallbacks
     }
 
     private Transform tr;
-    private PhotonView pv;
 
     [SerializeField] private float m_moveSpeed = 2;
     [SerializeField] private float m_turnSpeed = 200;
@@ -59,9 +58,8 @@ public class DropPlayer : MonoBehaviourPunCallbacks
     void Start() 
     {
         tr = GetComponent<Transform>();
-        pv = GetComponent<PhotonView>();
 
-        if(pv.IsMine)
+        if(photonView.IsMine)
         {
             Camera.main.GetComponent<SmoothFollow>().target = tr;
         }
@@ -130,10 +128,10 @@ public class DropPlayer : MonoBehaviourPunCallbacks
             {
                 m_jumpInput = true;
             }
-        }
-        if(this.transform.position.y < 0.0f || Input.GetMouseButtonDown(1))
-        {
-            DropRank.Instance.GoalCharacter();
+            if(this.transform.position.y < 0.0f)
+            {
+                DropRank.Instance.GoalCharacter();
+            }
         }
     }
 

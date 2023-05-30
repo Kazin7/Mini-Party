@@ -1527,6 +1527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ypos: 0
+  pv: {fileID: 0}
 --- !u!1 &7887601011882076984
 GameObject:
   m_ObjectHideFlags: 0
