@@ -47,7 +47,7 @@ public class PhotonMiniGameManager : MonoBehaviourPunCallbacks
 
         //룸의 속성 정의
         RoomOptions ro = new RoomOptions();
-        ro.MaxPlayers = 20;//최대 접속자수
+        ro.MaxPlayers = 4;//최대 접속자수
         ro.IsOpen = true;//룸의 오픈여부
         ro.IsVisible = true;//로비에서 룸 목록에 노출 시킬지 여부
 
