@@ -17,6 +17,7 @@ public class DropPlayer : MonoBehaviourPunCallbacks
         Direct
     }
 
+    public AudioSource src;
     private Transform tr;
     private bool drop = false;
     [SerializeField] private float m_moveSpeed = 2;
@@ -63,6 +64,7 @@ public class DropPlayer : MonoBehaviourPunCallbacks
         {
             Camera.main.GetComponent<SmoothFollow>().target = tr;
         }
+        src = GetComponent<AudioSource>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -127,8 +129,15 @@ public class DropPlayer : MonoBehaviourPunCallbacks
         {
             if (!m_jumpInput && Input.GetKey(KeyCode.Space))
             {
-                m_jumpInput = true;
+                if(!src.isPlaying){
+                    src.Play();
+                    m_jumpInput = true;
+                }
+                else{
+                    src.Stop();
+                }
             }
+
             if(this.transform.position.y < 0.0f && !drop)
             {
                 drop = true;
