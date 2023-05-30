@@ -1515,7 +1515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textObject: {fileID: 2404415164688141406}
   playerTransform: {fileID: 118237019080578845}
-  yOffset: 1.15
+  yOffset: 1.33
 --- !u!114 &1699153253692200600
 MonoBehaviour:
   m_ObjectHideFlags: 0
