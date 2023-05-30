@@ -11,6 +11,7 @@ public class DropPhotonManager : MonoBehaviourPunCallbacks
     //사용자 아이디 입력
     private string userId = ButtonEvent.nickName;
     private int playerNum;
+    public int player_cnt;
 
     void Awake(){
         //같은 룸의 유저들에게 자동으로 씬을 로딩
@@ -62,6 +63,7 @@ public class DropPhotonManager : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom(){
         Debug.Log($"PhotonNetwork.InRoom = {PhotonNetwork.InRoom}");
         Debug.Log($"Player Count = {PhotonNetwork.CurrentRoom.PlayerCount}");
+        player_cnt = PhotonNetwork.CurrentRoom.PlayerCount;
 
         //룸에 접속한 사용자 정보 확인
         foreach(var player in PhotonNetwork.CurrentRoom.Players){

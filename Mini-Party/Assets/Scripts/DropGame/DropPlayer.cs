@@ -133,7 +133,7 @@ public class DropPlayer : MonoBehaviourPunCallbacks
         }
         if(this.transform.position.y < 0.0f || Input.GetMouseButtonDown(1))
         {
-            Debug.Log(1);
+            DropRank.Instance.GoalCharacter();
         }
     }
 
@@ -246,7 +246,7 @@ public class DropPlayer : MonoBehaviourPunCallbacks
 
             if (!m_wasGrounded && m_isGrounded)
             {
-                m_animator.SetTrigger("Land");
+                m_animator.SetTrigger("Ground");
             }
 
             if (!m_isGrounded && m_wasGrounded)
