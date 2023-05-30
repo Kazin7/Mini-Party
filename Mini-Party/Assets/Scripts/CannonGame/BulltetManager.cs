@@ -11,9 +11,7 @@ public class BulltetManager : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision col){
-        if(col.gameObject.tag == "Player"){
-            Debug.Log("맞춤");
-        }
+
     }
     // Update is called once per frame
     void Update()

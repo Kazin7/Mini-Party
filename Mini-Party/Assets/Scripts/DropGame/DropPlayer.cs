@@ -18,7 +18,7 @@ public class DropPlayer : MonoBehaviourPunCallbacks
     }
 
     private Transform tr;
-
+    private bool drop = false;
     [SerializeField] private float m_moveSpeed = 2;
     [SerializeField] private float m_turnSpeed = 200;
     [SerializeField] private float m_jumpForce = 4;
@@ -109,6 +109,7 @@ public class DropPlayer : MonoBehaviourPunCallbacks
             }
             if (m_collisions.Count == 0) { m_isGrounded = false; }
         }
+        
     }
 
     private void OnCollisionExit(Collision collision)
@@ -128,9 +129,12 @@ public class DropPlayer : MonoBehaviourPunCallbacks
             {
                 m_jumpInput = true;
             }
-            if(this.transform.position.y < 0.0f)
+            if(this.transform.position.y < 0.0f && !drop)
             {
+                drop = true;
+                DropRank.Instance.pv.RPC("Goal",RpcTarget.AllBufferedViaServer);
                 DropRank.Instance.GoalCharacter();
+                transform.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
             }
         }
     }

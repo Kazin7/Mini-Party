@@ -20,7 +20,9 @@ public class PlayerPos : MonoBehaviour
         if(Ypos < -5f){
             if(pv.IsMine && !drop){
                 drop = true;
+                Rank.Instance.pv.RPC("Goal",RpcTarget.AllBufferedViaServer);
                 Rank.Instance.GoalCharacter();
+                transform.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
             }
         }
     }

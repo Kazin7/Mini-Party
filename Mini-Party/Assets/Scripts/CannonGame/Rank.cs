@@ -8,7 +8,6 @@ public class Rank : MonoBehaviour
 {
 
     public static Rank Instance;
-    public bool isGameClear;
     public int rank;
     public TextMeshProUGUI rankTx;
     public PhotonView pv;
@@ -16,7 +15,7 @@ public class Rank : MonoBehaviour
     [PunRPC]
     public void Goal()
     {
-
+        rank -= 1;
     }
     private void Awake()
     {
@@ -25,10 +24,8 @@ public class Rank : MonoBehaviour
     }
     public void GoalCharacter()
     {
-        isGameClear = true;
         rankTx.gameObject.SetActive(true);
         rankTx.text = rank + "등 입니다.";
-        rank -= 1;
     }
 
 }

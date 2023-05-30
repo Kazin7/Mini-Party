@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.010486943, g: 0.05298245, b: 0.15319028, a: 1}
+  m_IndirectSpecularColor: {r: 0.0104825515, g: 0.052958846, b: 0.15313327, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -37885,6 +37885,7 @@ GameObject:
   - component: {fileID: 1912455114}
   - component: {fileID: 1912455115}
   - component: {fileID: 1912455116}
+  - component: {fileID: 1912455117}
   m_Layer: 0
   m_Name: PhotonManager
   m_TagString: Untagged
@@ -37932,9 +37933,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a48251bd5fd272440ad45c5fc660eb0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rank: 0
+  rank: 4
   rankTx: {fileID: 117345355}
   pv: {fileID: 0}
+--- !u!114 &1912455117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912455112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 1
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &1912766811
 PrefabInstance:
   m_ObjectHideFlags: 0

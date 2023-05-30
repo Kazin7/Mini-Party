@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 48
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 97
+  controlID: 26
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,8 +166,8 @@ MonoBehaviour:
     y: 0
     width: 889
     height: 413
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 352
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -616,9 +616,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.68557644, y: 5.678443, z: 8.215857}
+    m_Target: {x: 6.617354, y: 9.47738, z: 7.7679863}
     speed: 2
-    m_Value: {x: -0.68557644, y: 5.678443, z: 8.215857}
+    m_Value: {x: 6.617354, y: 9.47738, z: 7.7679863}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -665,13 +665,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.091392025, y: -0.6641856, z: 0.082316004, w: -0.73738307}
+    m_Target: {x: -0.2986786, y: -0.0040278225, z: 0.001257927, w: -0.95434725}
     speed: 2
-    m_Value: {x: -0.09139182, y: -0.6641841, z: 0.08231582, w: -0.7373814}
+    m_Value: {x: -0.29867783, y: -0.004027812, z: 0.0012579238, w: -0.95434475}
   m_Size:
-    m_Target: 7.0529966
+    m_Target: 9.273036
     speed: 2
-    m_Value: 7.0529966
+    m_Value: 9.273036
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -729,7 +729,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5c21ffff6a2fffffe84cffff5e65ffff9c81ffff708cffff921701008e2b0100
+      m_ExpandedIDs: fc71ffff849effffc4d3ffff7adeffff0efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -794,22 +794,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/DropGame
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/DropGame
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\krust\Documents\GitHub\Mini-Party\Mini-Party
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 78f70000
-    m_LastClickedID: 63352
-    m_ExpandedIDs: 0000000054e8000056e8000058e800005ae800005ce800007ee9000000ca9a3b
+    m_SelectedIDs: 6e6f0000
+    m_LastClickedID: 28526
+    m_ExpandedIDs: 000000006c6e00006e6e0000706e0000726e0000746e0000706f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -837,7 +837,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000054e8000056e8000058e800005ae800005ce80000
+    m_ExpandedIDs: 000000006c6e00006e6e0000706e0000726e0000746e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

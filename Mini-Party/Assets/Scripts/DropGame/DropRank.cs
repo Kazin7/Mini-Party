@@ -12,24 +12,17 @@ public class DropRank : MonoBehaviour
     public int rank;
     public TextMeshProUGUI rankTx;
     public PhotonView pv;
-    GameObject pm;
 
     [PunRPC]
     public void Goal()
     {
-
+        rank -= 1;
     }
 
     private void Awake()
     {
         Instance = this;
         pv = GetComponent<PhotonView>();
-        pm = GameObject.Find("PhotonManager");
-    }
-
-    void Start() 
-    {
-        rank = pm.GetComponent<DropPhotonManager>().player_cnt;
     }
 
     public void GoalCharacter()
