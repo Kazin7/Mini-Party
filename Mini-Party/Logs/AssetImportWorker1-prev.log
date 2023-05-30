@@ -15,7 +15,7 @@ C:/Users/kng22/OneDrive/바탕 화면/Unity Project/Mini-Party/Mini-Party
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-1494
+11692
 Successfully changed project path to: C:/Users/kng22/OneDrive/바탕 화면/Unity Project/Mini-Party/Mini-Party
 C:/Users/kng22/OneDrive/바탕 화면/Unity Project/Mini-Party/Mini-Party
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/kng22/OneDrive/바탕 화면/Unity Project/Mini-Party/Mini-Party
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 113.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,75 +63,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013743 seconds.
+Registered in 0.011345 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 111.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.694 seconds
+- Completed reload, in  0.629 seconds
 Domain Reload Profiling:
-	ReloadAssembly (694ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (630ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (465ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (420ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (279ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (247ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
+				RefreshPlugins (93ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (113ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016920 seconds.
+Registered in 0.016878 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\kng22\OneDrive\바탕 화면\Unity Project\Mini-Party\Mini-Party\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\kng22\OneDrive\바탕 화면\Unity Project\Mini-Party\Mini-Party\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.243 seconds
+- Completed reload, in  1.694 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1244ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1695ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (966ms)
-			LoadAssemblies (145ms)
+		EndReloadAssembly (1423ms)
+			LoadAssemblies (694ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
+			SetupTypeCache (238ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (447ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (420ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -140,12 +140,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (182.5 KB). Loaded Objects now: 4374.
-Memory consumption went from 142.7 MB to 142.5 MB.
-Total: 3.167700 ms (FindLiveObjects: 0.353700 ms CreateObjectMapping: 0.317900 ms MarkObjects: 2.376200 ms  DeleteObjects: 0.118400 ms)
+Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (182.4 KB). Loaded Objects now: 4375.
+Memory consumption went from 142.8 MB to 142.6 MB.
+Total: 3.369600 ms (FindLiveObjects: 0.326300 ms CreateObjectMapping: 0.210200 ms MarkObjects: 2.703100 ms  DeleteObjects: 0.129300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,97 +159,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 340365.414116 seconds.
-  path: Assets/waterBallExp.mat
-  artifactKey: Guid(14902b792d4184f4596dd19f7c7c83c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/waterBallExp.mat using Guid(14902b792d4184f4596dd19f7c7c83c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024115a7bd7dbf01a2e9108f11aa1683') in 0.120660 seconds 
+  Time since last request: 363523.192309 seconds.
+  path: Assets/Scenes/Game Lobby.unity
+  artifactKey: Guid(0bce5907d797a4cd8b0660dc119867e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game Lobby.unity using Guid(0bce5907d797a4cd8b0660dc119867e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddfb6931dc39691675b2df139600e52') in 0.007013 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 275.832060 seconds.
-  path: Assets/Material/JumpGame.png
-  artifactKey: Guid(8cc7a2a9117cb67479d259f87a86bf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/JumpGame.png using Guid(8cc7a2a9117cb67479d259f87a86bf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7d1d9ef99e745b04f9d1ea4c38dbe3') in 0.022724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Material/Start.png
-  artifactKey: Guid(457f7f3e1e504a043b82cc93c2fcdc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Start.png using Guid(457f7f3e1e504a043b82cc93c2fcdc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d379e2ae2352b843887cf13254321d') in 0.014302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.374210 seconds.
-  path: Assets/Resources/MiniGameItem_00.prefab
-  artifactKey: Guid(bf8b8ed99f7124d4d88a864b6cc58a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MiniGameItem_00.prefab using Guid(bf8b8ed99f7124d4d88a864b6cc58a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb091c440bc1acf88616adba06f197f9') in 0.076384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Resources/WaterBall.prefab
-  artifactKey: Guid(bb4df0776dc903c41aeac5658bc4d8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/WaterBall.prefab using Guid(bb4df0776dc903c41aeac5658bc4d8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d84fe5d3cda04cbe3c8079749df99b1') in 0.012302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Resources/MiniGamePlayer_02.prefab
-  artifactKey: Guid(5aef180b7d30ccc46a0927da618e8ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MiniGamePlayer_02.prefab using Guid(5aef180b7d30ccc46a0927da618e8ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6b6c8d7913969721a1cdc561da2435') in 0.054260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Resources/MiniGameItem_03.prefab
-  artifactKey: Guid(b516890dfc1d6f24793c88a03ec15f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MiniGameItem_03.prefab using Guid(b516890dfc1d6f24793c88a03ec15f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132812f9ab491cbc2db559d998db9b93') in 0.039866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Resources/Punch.prefab
-  artifactKey: Guid(1166ca6be79827843b9de0b1856a59fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Punch.prefab using Guid(1166ca6be79827843b9de0b1856a59fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89c68e616c4a880e712e5012ee8fa39') in 0.010021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Resources/WaterExp.prefab
-  artifactKey: Guid(a0805e106e6fa5e408c7da2cca165cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/WaterExp.prefab using Guid(a0805e106e6fa5e408c7da2cca165cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7740a1f0eb409499be6f24ff8dcef9') in 0.012599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/MiniGameItem_01.prefab
-  artifactKey: Guid(d533890a8455d6d47a4002fc490a00a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MiniGameItem_01.prefab using Guid(d533890a8455d6d47a4002fc490a00a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca891e406977c38e68a1bb50f7eef4c') in 0.023990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Resources/MiniGameItem_02.prefab
-  artifactKey: Guid(a0ec47dc49422e54886f204cc17faaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MiniGameItem_02.prefab using Guid(a0ec47dc49422e54886f204cc17faaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e438ab4e685a0e0cb578c6ea0514fbb') in 0.023091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/MiniGamePlayer_00.prefab
-  artifactKey: Guid(8b0aaada8c8069a409ca7cdbd15f9d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MiniGamePlayer_00.prefab using Guid(8b0aaada8c8069a409ca7cdbd15f9d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce744a0fa4a512f8ab1b4a02ca1ba25b') in 0.032742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Resources/PunchObj.prefab
-  artifactKey: Guid(9b550ce2ab339db47b0f1e3f7181e645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PunchObj.prefab using Guid(9b550ce2ab339db47b0f1e3f7181e645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec78fc453fc6735f0a999de5c7c2abc') in 0.029623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/SlowObject.prefab
-  artifactKey: Guid(64989d59ed7cb2c42b3e1f48671efd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/SlowObject.prefab using Guid(64989d59ed7cb2c42b3e1f48671efd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcdc0ebb041966bdde2a8cd955c4a01') in 0.028234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/MiniGamePlayer_01.prefab
-  artifactKey: Guid(461320ffc92b22041809d27f8835e450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MiniGamePlayer_01.prefab using Guid(461320ffc92b22041809d27f8835e450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4babbcc1bed1786dbeb4a58bb3d57a9f') in 0.031218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Resources/Player.prefab
-  artifactKey: Guid(3afc48b5114e3ef439b735e821320488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Player.prefab using Guid(3afc48b5114e3ef439b735e821320488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e52aa7fab69949fcc7625e6c2f40e2') in 0.380470 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015710 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kng22\OneDrive\바탕 화면\Unity Project\Mini-Party\Mini-Party\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kng22\OneDrive\바탕 화면\Unity Project\Mini-Party\Mini-Party\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1038ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (150.3 KB). Loaded Objects now: 4390.
+Memory consumption went from 141.1 MB to 141.0 MB.
+Total: 2.680100 ms (FindLiveObjects: 0.286000 ms CreateObjectMapping: 0.203000 ms MarkObjects: 2.095300 ms  DeleteObjects: 0.094800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

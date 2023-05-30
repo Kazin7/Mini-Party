@@ -413,7 +413,6 @@
 "Assets/Scripts/DropGame/SlowItemObject.cs"
 "Assets/Scripts/DropGame/SmoothFollow.cs"
 "Assets/Scripts/DropGame/WaterBall.cs"
-"Assets/Scripts/GameSceneLoad.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MyGizmo.cs"
 "Assets/Scripts/PhotonManager.cs"
