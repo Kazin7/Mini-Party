@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
 
 public class GameChange : MonoBehaviour
 {
@@ -14,9 +15,9 @@ public class GameChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (this.gameObject.name == "CannonGame")
+        if (this.gameObject.name == "CannonGame" && PhotonNetwork.IsMasterClient)
         {
-            if(Input.GetKeyDown(KeyCode.Alpha1))
+            if (Input.GetKeyDown(KeyCode.Alpha1)) { }
                 SceneManager.LoadScene("CannonGame",LoadSceneMode.Single);
             if(Input.GetKeyDown(KeyCode.Alpha2))
                 SceneManager.LoadScene("DropGame", LoadSceneMode.Single);

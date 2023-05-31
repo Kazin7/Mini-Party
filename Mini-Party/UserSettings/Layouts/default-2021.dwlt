@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1904
     height: 981
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 2989
+  controlID: 1212
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2990
+  controlID: 1213
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -616,9 +616,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 456.1479, y: 286.50134, z: -96.99601}
+    m_Target: {x: 342.53067, y: 205.82883, z: -33.263626}
     speed: 2
-    m_Value: {x: 456.1479, y: 286.50134, z: -96.99601}
+    m_Value: {x: 342.53067, y: 205.82883, z: -33.263626}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -665,9 +665,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.17580715, y: -0.57512987, z: 0.12818843, w: -0.78873956}
+    m_Target: {x: -0.3828653, y: -0.30017862, z: 0.1331166, w: -0.8636041}
     speed: 2
-    m_Value: {x: 0.17580715, y: 0.57512987, z: -0.12818843, w: 0.78873956}
+    m_Value: {x: -0.38282222, y: -0.30014485, z: 0.13310163, w: -0.863507}
   m_Size:
     m_Target: 127.47549
     speed: 2
@@ -729,7 +729,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: de75ffff8a9affff20aaffff64c2ffff0cc5ffffd8c6ffff36c7ffffeadffffffaedffff8af9ffffdcfafffffe90000028910000
+      m_ExpandedIDs: 40a2ffff4ef3ffff96faffffa0740000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -802,14 +802,15 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts/CannonGame
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\krust\Documents\GitHub\Mini-Party\Mini-Party
+  m_LastProjectPath: "C:\\Users\\kng22\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Unity
+    Project\\Mini-Party\\Mini-Party"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0e900000
-    m_LastClickedID: 36878
-    m_ExpandedIDs: 000000000463000006630000086300000a6300000c6300000e63000010630000126300001463000016630000186300003463000000ca9a3b
+    m_SelectedIDs: 60740000
+    m_LastClickedID: 29792
+    m_ExpandedIDs: 00000000f8720000fa720000fc720000fe72000000730000027300000473000006730000087300000a7300000c7300000a740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -837,7 +838,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000463000006630000086300000a6300000c6300000e630000106300001263000014630000166300001863000000ca9a3b
+    m_ExpandedIDs: 00000000f8720000fa720000fc720000fe72000000730000027300000473000006730000087300000a7300000c730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -864,7 +865,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: a026000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
