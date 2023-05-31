@@ -15,7 +15,14 @@ public class GameChange : MonoBehaviour
     void Update()
     {
         if (this.gameObject.name == "CannonGame")
-            if (Input.GetMouseButtonDown(0))
+        {
+            if(Input.GetKeyDown(KeyCode.Alpha1))
                 SceneManager.LoadScene("CannonGame",LoadSceneMode.Single);
+            if(Input.GetKeyDown(KeyCode.Alpha2))
+                SceneManager.LoadScene("DropGame", LoadSceneMode.Single);
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+                SceneManager.LoadScene("Fantasy_01", LoadSceneMode.Single);
+        }
+            
     }
 }

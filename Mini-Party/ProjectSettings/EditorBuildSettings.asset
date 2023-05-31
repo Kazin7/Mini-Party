@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DropGame.unity
     guid: 4e466a3959153744abce5ea49505eeaf
+  - enabled: 1
+    path: Assets/Scenes/Fantasy_01.unity
+    guid: 9ba0becf66f263e4988c8d460c0d9b4e
   m_configObjects: {}
