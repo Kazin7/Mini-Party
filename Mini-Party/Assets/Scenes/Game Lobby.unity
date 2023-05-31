@@ -2846,9 +2846,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1813211239}
-  - component: {fileID: 1813211238}
   - component: {fileID: 1813211237}
   - component: {fileID: 1813211236}
+  - component: {fileID: 1813211240}
   m_Layer: 0
   m_Name: PhotonManager
   m_TagString: Untagged
@@ -2893,18 +2893,6 @@ MonoBehaviour:
   rank: 4
   rankTx: {fileID: 0}
   pv: {fileID: 0}
---- !u!114 &1813211238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813211235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52e0a730d461e4646a50a946f192beb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1813211239
 Transform:
   m_ObjectHideFlags: 0
@@ -2920,6 +2908,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1813211240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813211235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 863a9c9739aa9ce41a804c2e6f5c3373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_cnt: 0
 --- !u!1 &1929755994
 GameObject:
   m_ObjectHideFlags: 0
