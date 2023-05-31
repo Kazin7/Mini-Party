@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
+using Photon.Realtime;
 
 public class PlayerLook : MonoBehaviour
 {
@@ -11,16 +13,18 @@ public class PlayerLook : MonoBehaviour
     [SerializeField] private Transform playerBody;
     private float xAxisClamp;
     private bool m_cursorIsLocked = true;
+    private PhotonView pv;
 
     private void Awake()
     {
         LockCursor();
         xAxisClamp = 0.0f;
+        pv = GetComponent<PhotonView>();
     }
 
     private void LockCursor()
     {
-       
+       if (pv.IsMine){
         if (Input.GetKeyUp(KeyCode.Escape))
         {
             m_cursorIsLocked = false;
@@ -40,12 +44,16 @@ public class PlayerLook : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
+       }
+        
         
     }
 
     private void Update()
     {
-        CameraRotation();
+        if (pv.IsMine){
+            CameraRotation();
+        }
     }
 
     private void CameraRotation()

@@ -17,7 +17,7 @@ public class GameChange : MonoBehaviour
     {
         if (this.gameObject.name == "CannonGame" && PhotonNetwork.IsMasterClient)
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1)) { }
+            if (Input.GetKeyDown(KeyCode.Alpha1))
                 SceneManager.LoadScene("CannonGame",LoadSceneMode.Single);
             if(Input.GetKeyDown(KeyCode.Alpha2))
                 SceneManager.LoadScene("DropGame", LoadSceneMode.Single);
